@@ -12,18 +12,19 @@ This project focuses on enabling phone gesture control through eye gaze recognit
  ---
 
 # EyeGazeControl.py
-This Python script (eyegazecontrol.py) is responsible for implementing the eye gaze recognition model. It utilizes OpenCV and other relevant libraries to interpret eye movements and generate corresponding control signals.
+This Python script (EyeGazeControl.py) is responsible for implementing the eye gaze recognition model. It utilizes OpenCV and other relevant libraries to interpret eye movements and generate corresponding control signals.
 
-Requirements:
-Python 3 and above
-OpenCV (4 and above)
-dlib.shape_predictor , dlib.get_frontal_face_detector (provided in repo)
-Other relevant dependencies for eye gaze recognition
+### Requirements:
+- Python 3 and above
+- OpenCV (4 and above)
+- dlib.shape_predictor , dlib.get_frontal_face_detector (provided in repo)
+- Other relevant dependencies for eye gaze recognition
 
 ---
 
 ## ADB Connectivity
-ADB connection is to be done as per instructions provided in https://developer.android.com/tools/adb
+Establish a connection between your computer and Android phone using the Android Debug Bridge (ADB) tool by starting the ADB server and confirming device detection.
+For detailed instructions, refer to https://developer.android.com/tools/adb.
 
 ---
 
