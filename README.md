@@ -22,11 +22,11 @@ This Python script (EyeGazeControl.py) is responsible for implementing the eye g
 
 ---
 
-## ADB Connectivity
+# ADB Connectivity
 Establish a connection between your computer and Android phone using the Android Debug Bridge (ADB) tool by starting the ADB server and confirming device detection.
 For detailed instructions, refer to https://developer.android.com/tools/adb.
 
 ---
 
-## scrcpy Integration
+# Scrcpy Integration
 Ensure you have scrcpy installed on your computer. To mirror and control the Android phone screen type scrcpy in terminal.
